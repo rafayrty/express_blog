@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'SFMono';
+  src: url("../fonts/SFMono-Regular.woff2") format("woff2"), url("../fonts/SFMono-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'New York Small';
+  src: url("../fonts/NewYorkSmall-Regular.woff2") format("woff2"), url("../fonts/NewYorkSmall-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'New York Small';
+  src: url("../fonts/NewYorkSmall-Medium.woff2") format("woff2"), url("../fonts/NewYorkSmall-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'New York Extra Large Medium';
+  src: url("../fonts/NewYorkExtraLarge-Medium.woff2") format("woff2"), url("../fonts/NewYorkExtraLarge-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'New York Extra Large Regular';
+  src: url("../fonts/NewYorkExtraLarge-Regular.woff2") format("woff2"), url("../fonts/NewYorkExtraLarge-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'New York';
+  src: url("../fonts/NewYorkMedium-Bold.woff2") format("woff2"), url("../fonts/NewYorkMedium-Bold.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'New York';
+  src: url("../fonts/NewYorkMedium-Medium.woff2") format("woff2"), url("../fonts/NewYorkMedium-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'New York Extra Large Bold';
+  src: url("../fonts/NewYorkExtraLarge-Bold.woff2") format("woff2"), url("../fonts/NewYorkExtraLarge-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'New York';
+  src: url("../fonts/NewYorkMedium-Regular.woff2") format("woff2"), url("../fonts/NewYorkMedium-Regular.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFProDisplay-Regular.woff2") format("woff2"), url("../fonts/SFProDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFProDisplay-Medium.woff2") format("woff2"), url("../fonts/SFProDisplay-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url("../fonts/SFProText-Medium.woff2") format("woff2"), url("../fonts/SFProText-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url("../fonts/SFProText-Regular.woff2") format("woff2"), url("../fonts/SFProText-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url("../fonts/SFProText-Heavy.woff2") format("woff2"), url("../fonts/SFProText-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap; }

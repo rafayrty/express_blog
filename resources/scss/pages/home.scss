@@ -1,0 +1,108 @@
+.hero{
+    margin-top:4rem;
+}
+.hero-container{
+    @include container-width;
+}
+
+.hero .hero-img{
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    @include media(">=desktop") {
+        margin:0;
+        margin-top:3.2rem;
+     }
+}
+.hero .hero-img img{
+    width:100%;
+}
+.hero .hero-text{
+    margin-top:2.4rem;
+}
+.hero .hero-text h1{
+    text-align: center;
+    @include hero-heading;
+
+
+
+}
+.hero .hero-text p{
+    margin-top:2rem;
+    text-align: center;
+    @include hero-text;
+
+
+}
+.hero-container hr{
+    margin-top:3.2rem;
+    border:1px solid #000;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    @include media(">=desktop") {
+       margin:0;
+       margin-top:3.2rem;
+    }
+}
+.articles-container{
+    margin-top:4.5rem;
+    @include container-width;
+}
+.articles-container{
+    
+    .articles__heading{
+        font-family: 'New York Extra Large Bold';
+        font-size:2.25rem;
+        text-align: center;
+        line-height:1.3;
+        @include media('>=tablet'){
+            padding-top:2rem;
+            padding-bottom:1rem;
+        }
+    }
+    a{
+        text-decoration: none;
+        color:inherit;
+    }
+
+    .articles__list{
+        @include media(">=tablet") {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap:1.8rem;
+        }
+
+        @include media(">=desktop") {
+            grid-gap:2rem;
+        }
+        &-article:not(:first-child){
+
+            margin-top:2.7rem;
+            @include media(">=tablet") {
+                margin-top:0;
+            }
+        }
+        &-image{
+            a{
+                display:block;
+                overflow:hidden;
+                &:hover img{
+                    transform:scale(1.1);
+                }
+            }
+            img{
+                display:block;
+                width:100%;
+                transition:.2s ease-in-out;
+            }
+        
+        }
+        &-heading{
+            font-family: 'SF Pro Display';
+            font-weight: 500;
+            font-size:1.4rem;
+            text-align: center;
+        }
+
+    }
+
+}
