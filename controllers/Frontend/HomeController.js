@@ -1,6 +1,5 @@
 //js
 
-//For Register Page
 const HomeView = (req, res) => {
     res.render("pages/index", {
     });
